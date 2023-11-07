@@ -1,0 +1,9 @@
+/* !important prioriza o elemento e o id */
+
+/* #page {
+    background-color: blueviolet !important;
+} */
+
+.d-block {
+    height: 700px;
+}
