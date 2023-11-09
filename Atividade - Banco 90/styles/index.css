@@ -1,0 +1,27 @@
+:root {
+    --marrom: #302727;
+    --vermelho:#ba2d2d;
+    --laranja:#f2511b;
+    --amarelo: #f2861b;
+    --mostarda:#c7c730;
+}
+
+header, footer {
+    background-color: var(--vermelho);
+    color: white;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+#botao-header {
+    color: white;
+    border: solid 1px white;
+}
+
+#botao-header:hover {
+    background-color: #d41010;
+}
+
+
