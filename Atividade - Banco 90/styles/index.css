@@ -35,26 +35,32 @@ header, footer {
 }
 
 #info {
-    width: 30%;
+    width: 42%;
     height: auto;
-    padding: 2.5rem 0;
-    background-color: #f2871b87;
+    padding: 3.5rem 0;
+    padding-left: 1rem;
+    background-color: #f2871b6a;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 #info > h3 {
     font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+    margin-left: 1rem;
+}
+
+#info2 > p {
+    font-size: 20px;
 }
 
 #button-banner {
-    padding: .7rem;
+    padding: 1rem;
     background-color: #000000;
     color: white;
     border: solid 1px #f2511b;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .card {
@@ -76,4 +82,43 @@ header, footer {
 
 #image-contrato > img {
     border-radius: 10px 0 0 10px;
+}
+
+#calendario{
+    border: solid 1px gray;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    box-shadow: 5px 5px 5px 8px rgb(177, 174, 174);
+    
+}
+
+table{
+    width: 46rem;
+}
+
+td{
+    border: solid 1px gray;
+    text-align: center;
+    font-weight: 500;
+}
+
+tr td:first-child{
+    background-color: #ba2d2d;
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding: 0 15px;
+}
+
+
+th{
+    background-color: #ba2d2d;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+tr th:first-child{
+    background-color: white;
 }
